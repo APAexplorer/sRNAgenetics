@@ -47,5 +47,23 @@ The script retains small RNAs with significant cis-heritability using `--hsq_p 0
 
 **Step 2: TWAS association testing**
 
-The trained tissue-specific sRNA-TWAS models were then used to perform TWAS association testing with GWAS summary statistics.
+The script `./TWAS/run_sRNA_TWAS_association.sh` was used to perform TWAS association testing using trained tissue-specific sRNA-TWAS prediction models and GWAS summary statistics.
+
+Example usage:
+
+```bash
+bash scripts/TWAS/run_sRNA_TWAS_association.sh \
+    --sumstats-list <gwas_sumstats_list> \
+    --tissue-list <tissue_list> \
+    --chr <chromosome> \
+    --weight-root <weight_root> \
+    --sumstats-root <sumstats_root> \
+    --ldref-prefix <ldref_prefix> \
+    --fusion <fusion_dir> \
+    --output <output_root> \
+    --p-cutoff <p_cutoff>
+```
+
+The GWAS summary statistics list should contain two columns: GWAS summary statistics file name and sample size. The script runs TWAS association testing for each GWAS trait, tissue and chromosome.
+
 
