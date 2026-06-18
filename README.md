@@ -34,3 +34,23 @@ Demo datasets and tutorials for the main analysis steps are available from the o
 - [tensorQTL](https://github.com/broadinstitute/tensorqtl) provides QTL mapping example data and tutorials, including the [GTEx v8 example notebook](https://github.com/broadinstitute/tensorqtl/blob/master/example/GTEx_v8_example.ipynb).
 
 These demo datasets can be used to test software installation, expected input formats and example workflows. 
+
+## Analysis workflow
+
+The analysis scripts are organized into four main modules:
+
+### QTL analysis
+
+Scripts in `scripts/QTL/` were used to identify cis-sRNA-QTLs using tensorQTL.
+
+### TWAS analysis
+
+Scripts in `scripts/TWAS/` were used to build tissue-specific sRNA-TWAS prediction models and perform TWAS association analyses.
+
+### GWAS integration
+
+Scripts in `scripts/GWAS_integration/` were used to process GWAS summary statistics for downstream TWAS, colocalization and fine-mapping analyses.
+
+### Plotting
+
+Scripts in `scripts/Plotting/` were used to generate main and supplementary figures.
