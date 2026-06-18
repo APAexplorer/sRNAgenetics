@@ -36,7 +36,7 @@ python3 -m tensorqtl "${plink_prefix_path}" "${expression_bed}" "${prefix}" \
 
 
 # Step 2: cis permutation mapping and FDR calculation
-python3 scripts/QTL/calculate_cis_qtl_fdr.py \
+python3 calculate_cis_qtl_fdr.py \
     "${plink_prefix_path}" \
     "${expression_bed}" \
     "${covariates_file}" \
