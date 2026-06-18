@@ -11,6 +11,7 @@ bash scripts/QTL/run_sRNA_QTL_mapping.sh \
     <covariates_file> \
     <prefix> \
     <output_file>
+``` 
 
 Input files and parameters:
 
