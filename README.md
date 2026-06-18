@@ -23,5 +23,5 @@ R (v4.3.1) was used for downstream data processing, genomic annotation, statisti
 - [GenomicRanges](https://bioconductor.org/packages/GenomicRanges/) (v1.54.1)
 - [rtracklayer](https://bioconductor.org/packages/rtracklayer/) (v1.62.0)
 - [ggplot2](https://cran.r-project.org/package=ggplot2) (v3.5.1)
-- [locuscomparer]([https://cran.r-project.org/package=locuscomparer](https://github.com/boxiangliu/locuscomparer)) (v1.0.0)
+- [locuscomparer](https://github.com/boxiangliu/locuscomparer) (v1.0.0)
 - [qqman](https://cran.r-project.org/package=qqman) (v0.1.9)
