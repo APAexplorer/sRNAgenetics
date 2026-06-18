@@ -5,8 +5,8 @@ About
 ====================
 This repository contains the analysis workflow and source code for the study **"Genetic regulation of small RNAs across human tissues and its contribution to human diseases"**. The study used GTEx v10 data, including 16,054 small RNA-seq samples from 49 human tissues of 942 donors, for sRNA-QTL mapping and tissue-specific sRNA-TWAS model construction.
 
-## Software requirements
-The analyses were performed using the following publicly available software:
+## Software requirements and installation
+The analyses were performed using the following publicly available software. Installation instructions are available through the corresponding software links:
 
 - [PLINK 2.0](https://www.cog-genomics.org/plink/2.0/) (v2.00a2.3)
 - [FUSION](http://gusevlab.org/projects/fusion/) (no formal release version; accessed January 15, 2026)
@@ -25,3 +25,12 @@ R (v4.3.1) was used for downstream data processing, genomic annotation, statisti
 - [ggplot2](https://cran.r-project.org/package=ggplot2) (v3.5.1)
 - [locuscomparer](https://github.com/boxiangliu/locuscomparer) (v1.0.0)
 - [qqman](https://cran.r-project.org/package=qqman) (v0.1.9)
+
+## Demo data
+Individual-level GTEx v10 genotype and small RNA-seq data used in this study are controlled-access and are not included in this repository.
+
+Demo datasets and tutorials for the main analysis steps are available from the original software resources:
+- [FUSION](http://gusevlab.org/projects/fusion/) provides TWAS example data and tutorials.
+- [tensorQTL](https://github.com/broadinstitute/tensorqtl) provides QTL mapping example data and tutorials, including the [GTEx v8 example notebook](https://github.com/broadinstitute/tensorqtl/blob/master/example/GTEx_v8_example.ipynb).
+
+These demo datasets can be used to test software installation, expected input formats and example workflows. 
